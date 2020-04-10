@@ -146,6 +146,7 @@ h2 {
        color: #db7476;
        text-align: center;
        margin-bottom: 5px;
+       font-size: 1.5vw;
        
 
    }
@@ -181,7 +182,7 @@ h2 {
     margin-right: 13.5%;
     color: #db7476;
     text-align: center;
-    
+    font-size: 1.5vw;
   
 
    }
@@ -190,6 +191,7 @@ h2 {
      color: #db7476; 
      padding-top: 0%;
      margin-top: 0%;
+     font-size: 1.5vw;
   
    }
 
@@ -249,6 +251,7 @@ margin-bottom: 5%;
     
   } 
 
+  
   .parrafo {
     display: inline;
     font-size: 2vw;
