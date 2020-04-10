@@ -250,6 +250,11 @@ margin-bottom: 5%;
     
     
   }
-  
+   .parrafo {
+
+    margin-left: .1%;
+    font-size: 2em;
+    display: inline-block;
+   }
 
   
