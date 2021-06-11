@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Times, "Times New Roman", Georgia, serif;
+}
+h3{
+
+    color: #dd1c1a ;
+}
+.contenedor{
+height: 75vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.platillo {
+    display:flex;
+    flex-direction: column;
+width: 33.3%;
+align-items: center;
+justify-content: center;
+height: 100%;
+padding: 2%;
+border-radius: 50%;
+}
+
+
+.platillo_descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+
+.platillo_pic {
+ height: 50%;
+ width: 100%;
+
+  
+    background-image: url('../images/home/tacos.jpg') ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+   
+}
+.quesadilla {
+    background-image: url('../carpetas/fotosMenu/birriaT.jpg') ;
+
+}
+
+.sopes {
+    background-image: url('../carpetas/fotosMenu/sopes.jpg') ;
+
+}
+
+
+.flautas  {
+    background-image: url('../carpetas/fotosMenu/flautas.jpg') ;
+
+}
+
+
+.nachos  {
+    background-image: url('../carpetas/fotosMenu/nachos.jpg') ;
+
+}
+
+
+.caldo  {
+    background-image: url('../carpetas/fotosMenu/caldo.jpg') ;
+
+}
+
+
+.gorditas  {
+    background-image: url('../carpetas/fotosMenu/gorditas.jpg') ;
+
+}
+
+.pollo   {
+    background-image: url('../carpetas/fotosMenu/pollo.jpg') ;
+
+}
+
+
+.asada   {
+    background-image: url('../images/home/quesadilla.jpg') ;
+
+}
+
+
+
+
+
+
+
+@media(max-width: 768px) {
+
+.contenedor {
+
+    flex-direction: column;
+    height: 200vh;
+    width: 100vw;
+overflow: hidden;
+
+
+}
+.platillo{
+
+    width: 100%;
+}
+
+}

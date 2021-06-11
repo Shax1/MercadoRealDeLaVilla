@@ -13,7 +13,7 @@
     display: inline-block;
     padding: 10px 30px;
     color: rgb(250, 246, 246);
-    background-color:   #dd1c1a;;
+    background-color:   #dd1c1a;
     border: none;
     border-radius: 5px;
 }
@@ -25,13 +25,13 @@
 .btn-primary, .bg-primary {
    background: white;
    color: rgb(126, 122, 122);
-   border: 1px solid rgb(241, 14, 14);
+   border:  solid #dd1c1a;;
    
 }
 .btn-secondary, .bg-secondary {
    background: #faf9f9;
    color: rgb(24, 3, 3);
-   border: solid rgb(69, 231, 77)  1px;
+   border: solid #dd1c1a;
    border-top:none;
 
 }
@@ -39,7 +39,7 @@
 .bg-panaderia{
 
     background: white;
-    border: solid 1px goldenrod;
+    border: solid #dd1c1a;;
 }
 .btn-dark, .bg-dark {
    background: #333;
@@ -59,13 +59,17 @@
 .flex-items {
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     height: 100%;
+    align-self: center;
+    align-items: center;
 }
 
 .flex-items > div {
     padding: 20px;
+    min-width: 30%;
+    
 }
 
 /* Flex columns */
@@ -151,3 +155,4 @@
     max-width: 25%;
     padding: 0 4px;
 }
+ 
