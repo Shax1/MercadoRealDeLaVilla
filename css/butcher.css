@@ -130,6 +130,7 @@ margin-top: 10%;
 .item_pic {
 
     width: 60vw;
+    margin-bottom: 1%;
 }
 
 .item_pic:after {
