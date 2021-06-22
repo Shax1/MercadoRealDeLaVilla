@@ -185,7 +185,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   margin-left: auto;
- opacity: 0.8;
+ 
 
   
 
@@ -343,6 +343,7 @@ background: rgb(6, 168, 41);
      -webkit-clip-path: circle(2000px at 90% -10%);
  z-index: 12;
  color: rgb(26, 173, 13);
+ background-color: #f5e7e6;
 
     
  }
